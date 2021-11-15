@@ -1,0 +1,60 @@
+.container {
+  /* width: 90%; */
+  text-align: center;
+  /* padding: auto; */
+  margin: auto;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+}
+.showcase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-color: rgb(31, 43, 52);
+  margin-top: 130px;
+  color: white;
+}
+.showcase .user {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  justify-content: start;
+  align-items: center;
+}
+.showcase .user img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+}
+.showcase .case img {
+  height: 20rem;
+  width: auto;
+  border: 5px solid red;
+}
+.showcase .flex {
+  display: flex;
+  /* border: 1px solid; */
+  margin-right: 20px;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.showcase .case {
+  display: flex;
+  flex-direction: column;
+}
+.showcase .left {
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+}
+.left .text {
+  text-align: center;
+}
+.left button {
+  height: 50px;
+  width: 120px;
+  border-radius: 50px;
+  border: 2px solid;
+  margin-right: 400px;
+}
